@@ -1,0 +1,589 @@
+@use "./_base";
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(208, 208, 196) ;
+     width: auto ;
+     font-family: base.$font-family;
+}
+
+.super-main {
+    width: 80%;
+    height: 90vh;
+    background-color: base.$black;
+    margin: 2% auto;
+    display: flex;
+  }
+
+  .secondary{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .vrt{
+    border-left: 1px solid base.$gray;
+    height: 90vh;
+  }
+
+  hr{
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid;
+    border-color: base.$gray;
+  }
+
+  .left {
+    background-color: base.$black;
+    width: 20%;
+    height: 90vh;
+    margin: 0;
+
+  }
+  
+  .hero{
+   
+    background-color: base.$black;
+    width:100%;
+    min-height: 70vh;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 80px;
+   
+  }
+
+  .fa-solid{
+    color: white ;
+  }
+
+  h4{
+    color: base.$gray;
+  }
+
+  h2{
+    margin: 0;
+    color: base.$white;
+  }
+
+  // 1erparte
+
+  .main{
+    padding: 20px;
+  }
+  .Overview,.Updates,.Payment,.My-Order,.Admin-Setting{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+ 
+
+  .number1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    background-color: base.$green;
+    border-radius: 50%;
+
+  }
+
+  .number2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    background-color: base.$yellow;
+    border-radius: 50%;
+  }
+
+  .acc-text{
+  margin-left: 20px;
+  color: base.$white;
+  }
+  .acc-text1{
+    margin-right: 80px;
+    margin-left: 10px;
+    color: base.$white;
+  }
+
+  .acc-text2{
+    margin-right: 40px;
+    margin-left: 20px;
+    color: base.$white;
+  }
+
+
+  // 2da parte
+  .nav-bar{
+    background-color: base.$black;
+    width:100%;
+    height: 7%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+  }
+  
+  
+  .search{
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 40px;
+  margin-top: 6px;
+  justify-content: space-between;
+  background-color: base.$gray;
+  border-radius: 17px;
+  margin-left: 20px;
+}  
+.text-search,.icon{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.icon2{
+  display: flex;
+  align-items: center;
+}
+.profile-conf{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 300px;
+  height: 40px;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+  .english{
+    color: base.$white;
+    margin-right: 10px;
+  }
+  .fa-arrow-down{
+    color: base.$white;
+    font-size: 10px;
+  }
+ 
+  .vertical{
+    border-left: 2px solid base.$gray;
+    height: 20px;
+  }
+  .usuario{
+   display: flex;
+   flex-direction: column;
+   margin: 0%;
+  }
+  .usuario2{
+    margin: 0%;
+    color: base.$white
+  }
+  .usuario3{
+    margin: 0%;
+    color: base.$gray;
+    font-size: 13px;
+  }
+  .proofile{
+    background-color: base.$magenta;
+    width:50px;
+    margin: 0;
+    text-align: center;
+    border-radius: 50%;
+  }
+// // 3da parte
+
+.nav-bar2{
+  background-color: base.$black;
+  width:100%;
+  height: 7%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ 
+}
+.l-text{
+  color: base.$white;
+  margin-left: 10px ;
+  margin-right: 10px ;
+}
+.l-text1{
+  color: base.$white;
+  margin-left: 10px ;
+  margin-right: 10px ;
+  text-decoration: underline;
+}
+.terciary{
+  display: flex;
+  
+}
+.container1{
+ width: 77%;
+ height: 70vh;
+ background-color: base.$black; 
+
+}
+
+// acabado nav-bar
+
+
+.first{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.d-first{
+  display: flex;
+  align-items: center;
+  width: 49.5%;
+  height: 85px;
+  background-color: base.$green;
+  justify-content: space-around;
+  border-radius: base.$border-radius ;
+}
+
+ .usuario4{
+  margin: 0%;
+  color: base.$black;
+ }
+ .porcent{
+  color: base.$white;
+ }
+.d-second{
+  display: flex;
+  align-items: center;
+  width: 49.5%;
+  height: 85px;
+  background-color: base.$magenta;
+  justify-content: space-around;
+  border-radius: base.$border-radius ;
+}
+.d-recuadro{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:50px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: base.$black;
+ 
+}
+.d-icon{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width:50px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: base.$black;
+}
+
+// 4era aprte
+.imagen{
+  border-radius: 15px;
+ margin-left: 90px;
+ margin-bottom: 10px;
+ margin-top: 6px;
+  padding: 6px;
+  text-align: center;
+  width: 600px;
+  height: 320px;
+  background-color: base.$gray ;
+
+ 
+}
+.imagen2{
+  margin: 0%;
+  width: 500px;
+  height: 320px;
+  
+}
+
+
+// 6ta parte 
+
+
+.container2{
+  width: 20%;
+  height: 66.5vh;
+  background-color: base.$black;
+  padding: 0;
+  margin-left:20px;
+  position: relative;
+  bottom: 18px;
+
+}
+
+.fa-paypal,.fa-credit-card{
+  color:base.$black;
+}
+
+ .nav-bar3{
+  border-top-right-radius: 10px ;
+  border-top-left-radius: 10px;
+  background-color: base.$gray;
+  width:98%;
+  margin-left: 5px;
+  height: 7%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ }
+  .t-products{
+   color: base.$white;
+   margin: 0;
+   margin-left: 10px;
+ }
+ .fa-ellipsis{
+  margin-right: 10px;
+ }
+// final imagen y nav 
+ .table{
+ border-bottom-left-radius: 10px;
+  margin-left: 5.7px;
+  border-spacing: 0;
+  width: 98%
+  
+}
+
+th{
+  background-color: rgb(46, 45, 45) ;
+  color: base.$osc-gray;
+  
+}
+ 
+td{
+  text-align: center;
+  background-color: base.$gray;
+  color: base.$white;
+  padding-top: 10px ;
+  padding-bottom: 10px ;
+  color: base.$white;
+  
+}
+
+.del{
+  background-color: black;
+  border-radius: 10px;
+  font-size: 12px;
+  margin-right: 10px;
+}
+.tb-1{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+
+}
+  
+.n-pay{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 10px;
+}
+  
+   .number5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    background-color: base.$green;
+    border-radius: 50%;
+   }
+
+   .number6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    background-color: base.$magenta;
+    border-radius: 50%;
+   }
+
+// 7parte
+  .segundo{
+    display: flex;
+    flex-direction: column;
+    background-color: base.$gray;
+    margin-top: 5px;
+    border-radius: 10px;
+    padding: 18px;
+   
+  }
+   
+  .s-text1{
+    color: base.$osc-gray;
+  }
+
+  .s-text2{
+   color: base.$white;
+  }
+
+  .t2-title{
+     color: base.$white;
+     font-size: 18px;
+     font-weight: 900;
+  }
+
+  .s-text,.s-numeros{
+    display: flex;
+    justify-content: space-between;
+  }
+   .p-cuenta{
+     background-color: base.$gray;
+     border-radius: 10px;
+     padding-left: 10px;
+     padding-right: 10px;
+
+   }
+
+   .p-text1{
+   color:base.$osc-gray;
+   padding-top: 10px;
+   }
+   .p-text2{
+   color:base.$white;
+   }
+   button{
+    background-color: base.$yellow;
+    border-style: none ;
+    border-radius: 10px;
+    padding: 3px 30px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 600;
+
+   }
+  .s-text,.s-numeros,.s-text-1,.s-number{
+   display: flex;
+   align-items: center;
+  }
+   .tercero{
+    display: flex;
+    flex-direction: column;
+    background-color: base.$gray;
+    margin-top: 5px;
+    border-radius: 10px;
+    padding: 15px;
+   
+   }
+   .s-rectangle{
+    
+  
+    margin-top: 10px;
+    width:150px;
+    height:25px;
+    display: inline-flex;
+    margin-bottom: 10px;
+   
+  
+  
+   }
+
+    .rectangle1{
+    background-color: base.$green;
+    width: 33%;
+    border-top-left-radius: 5px ;
+    border-bottom-left-radius: 5px ;
+   
+    
+    }
+
+    .rectangle2{
+    background-color: base.$yellow;
+    width: 42%;
+    
+   
+    }
+
+   .rectangle3{
+    background-color:  base.$black;
+    width: 25%;
+    border-top-right-radius: 5px ;
+    border-bottom-right-radius: 5px ;
+   
+     }
+
+
+
+     .t-numeros{
+     display: flex ;
+     align-items: center;
+     }
+
+     .t2-numeros,.t3numeros{
+       width: 50%;
+     }
+
+     .t3-text{
+       margin: 0;
+       margin-bottom: 10px;
+       color: base.$osc-gray;
+       
+     }
+     .t4-text{
+      margin: 0;
+      color: base.$white;
+    }
+
+    .t5-text{
+      color: base.$white;
+    }
+     .rectangle4{
+      background-color: base.$green;
+      width: 14%;
+      border-top-left-radius: 5px ;
+      border-bottom-left-radius: 5px ;
+      }
+  
+      .rectangle5{
+      background-color: rgb(98, 141, 98);
+      width: 7%;
+      }
+  
+     .rectangle6{
+      background-color: base.$magenta;
+      width: 20%;
+      
+     
+       }
+
+       .rectangle7{
+        background-color: rgb(217, 170, 84);
+        width: 20%;
+        
+       
+        
+        }
+    
+        .rectangle8{
+        background-color: base.$yellow;
+        width: 14%;
+        
+       
+        }
+    
+       .rectangle9{
+        background-color: base.$magenta;
+        width: 7%;
+        
+       
+         }
+
+         .rectangle10{
+          background-color: base.$yellow;
+          width: 14%;
+          border-top-right-radius: 5px ;
+          border-bottom-right-radius: 5px ;
+         
+           }
+
+    //  parte 7
+
+   
